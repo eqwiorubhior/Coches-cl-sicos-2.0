@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    form {
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 5px;
+    }
+    input[type="text"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    input[type="file"] {
+      margin-top: 5px;
+    }
+    textarea {
+      width: 100%;
+      margin-top: 5px;
+    }
+    input[type="reset"],
+    input[type="submit"] {
+      padding: 5px 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <table border>
+      <form>
+        <tr></tr>
+        <tr>
+          <td>Choche que quiere comprar:</td>
+          <td>
+            <select>
+              <option>Supra MK4</option>
+              <option>Nisan Skyline GRT r34</option>
+              <option>Coche de Ken Block</option>
+              <option>Mazda mx5</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Nombre:<input type="text"></td>
+          <td>Apellidos:<input type="text"></td>
+        </tr>
+        <tr>
+          <td>DNI: <input type="text"></td>
+          <td>Confirmar DNI: <input type="text"></td>
+        </tr>
+        <tr>
+          <td align="left" colspan="4">Email: <input type="text" size="50"></td>
+        </tr>
+        <tr>
+          <td>Sexo</td>
+          <td>Hombre <input type="radio" name="sexo"> Mujer <input type="radio" name="sexo"></td>
+        <tr>
+          <td>Mejoras:</td>
+          <td>Body kit <input type="checkbox"> <br>Twin Turbo <input type="checkbox"><br>Super Charger <input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>País:</td>
+          <td>
+            <select>
+              <option>España</option>
+              <option>Andorra</option>
+              <option>Alemania</option>
+              <option>Rusia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Color del coche:</td>
+          <td><select multiple>
+              <option>Rojo</option>
+              <option>Verde</option>
+              <Option>Azul</Option>
+              <option>Morado</option>
+              <option>Amarillo</option>
+              <option>Negro</option>
+              <option>Blanco</option>
+              <option>Naranja</option>
+              <option>Rosa</option>
+              <option>Gris</option>
+            </select>
+        </tr>
+        <tr>
+          <td>Carnet de conducir:</td>
+          <td> <input type="file"> </td>
+        </tr>
+        <tr>
+          <td>Comentario:</td>
+          <td> <textarea name="Escribe" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><input type="reset"> </td>
+          <td style="text-align: center;"> <input type="submit"></td>
+        </tr>
+        <tr> <a href="index.html"">Volver/</a></tr>
+         <a href="pagina principal .html"">Volver a pagina principal </a>
+    </table>
+  </form>
+</body>
+</html>
